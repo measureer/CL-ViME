@@ -2,7 +2,7 @@
 
 ## ⚙️ Configuration (`run_pretrain.sh`)
 
-The shell script `run_pretrain.sh` configures and launches the MoCo pre-training:
+The shell script `run_pretrain.sh` configures and launches the pre-training:
 
 ```bash
 #!/bin/bash
@@ -39,7 +39,7 @@ CUDA_VISIBLE_DEVICES=0,2,3 python ./main_moco_mmoe.py \
     --save_path $SAVE_PATH
 ```
 
-The shell script `run_lincls.sh` configures and launches the MoCo pre-training:
+The shell script `run_lincls.sh` configures:
 
 ```bash
 #!/bin/bash
